@@ -71,5 +71,5 @@ group :test do
   gem "webdrivers"
 end
 
-gem 'flickraw'
+gem 'flickr'
 gem 'figaro'
