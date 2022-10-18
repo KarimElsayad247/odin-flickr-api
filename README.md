@@ -12,3 +12,7 @@ After cloning and installing dependancies, you need to add the flickr api key an
 FLICKR_API_KEY: <api key as gotten from flickr>
 FLICKR_SHARED_SECRET: <secret as gotten from flickr>
 ```
+
+## Credits
+
+Made possible with the [flickr](https://github.com/cyclotron3k/flickr) gem, go give it a star!
