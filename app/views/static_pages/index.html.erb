@@ -1,0 +1,16 @@
+<h1>Static pages</h1>
+
+<%= form_with url: '/', method: :get do |form| %>
+    <div class="field">
+        <%= form.label :id %>
+        <%= form.text_field :id, value: params[:id] if params[:id] %>
+    </div>
+
+    <%= form.submit "Get Photos" %>
+<% end %>
+
+<% if @response.present? %>
+    <% @img_links.each do |img_link| %>
+        <%= image_tag img_link %>
+    <% end %>
+<% end %>
